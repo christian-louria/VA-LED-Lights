@@ -11,7 +11,7 @@ Download the app on the Appstore to control your lights "VA LED Lights"
 - Change config.py.sample -> config.py
 - Configure weatherApiKey from https://openweathermap.org/api
 - Port forwarding needs to be configured on your router
-- Team config is a EPL team name with porper capitalization
+- Team config is a EPL team name with proper capitalization
 
 ## Running 
 
