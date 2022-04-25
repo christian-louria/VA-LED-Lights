@@ -1,1 +1,3 @@
-weatherApiKey = ''
+weatherApiKey = 'https://openweathermap.org/api'
+port = 65432
+team = "West Ham"

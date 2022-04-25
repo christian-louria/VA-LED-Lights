@@ -1,11 +1,4 @@
 # Christian Louria
-# VA LED Lights Allows you to control and customize GeeekPi MAX7219 8 x 32
-# Dot Matrix LED Lights from your phone.
-
-# To start, make sure you have GeeekPi MAX7219 lights and download the
-# Raspberry Pi python code off of my GitHub (link here). Once the python
-# code is set up. input the IP Address of your Raspberry Pi and use the
-# custom features present in the app.
 
 import time
 import socket
@@ -14,6 +7,7 @@ import boardClass
 import threading
 import json
 import globe
+import config
 
 
 # import both
@@ -21,7 +15,7 @@ import globe
 # import os
 
 HOST = '192.168.1.26'
-PORT = 65432
+PORT = config.port
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
     print("Listening for connections")

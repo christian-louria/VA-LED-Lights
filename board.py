@@ -8,7 +8,6 @@ import json
 import globe
 import config
 
-
 from luma.core.interface.serial import spi, noop
 from luma.core.render import canvas
 from luma.core.virtual import viewport
@@ -68,7 +67,7 @@ def setTeam(draw):
                 
                 mainEvent = {}
                 for event in events:
-                    if "West Ham" in event['name']:
+                    if config.team in event['name']:
                         mainEvent = event
                         break
                 
